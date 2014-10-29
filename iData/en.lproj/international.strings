@@ -1,0 +1,51 @@
+/* 
+  international.strings
+  iData
+
+  Created by karven on 8/22/14.
+  Copyright (c) 2014 karven. All rights reserved.
+*/
+"scan"="Scan";
+"edit"="Edit";
+"local"="Local Storage";
+"remote"="iData Storage";
+"changeLanguage" = "change Language";
+"router"="Wireless Router Settings";
+"music"="Music";
+"contact"="Contact Backup";
+"video"="Video";
+"language"="Choose Language";
+"photo"="Photo";
+"folder"="Folder";
+"document"="Document";
+"connect"="Connected";
+"unconnect"="Unconnected";
+"zone"="Used Space";
+"copy"="Copy";
+"paste"="Paste";
+"check"="Select All";
+"delete"="Delete";
+"languageTitle"="Setting Language";
+"backupTo"="Backup Contacts";
+"backupToSubtitle"="Backup iPhone Contacts To iData";
+"backupFrom"="Import Contacts";
+"backupFromSubtitle"="Import iData Contacts To iPhone";
+"contactNumber"="Local Contacts:";
+"lastOperator"="Last Operation:";
+
+
+
+/*toast信息*/
+"visitContacts"="App not permissions contacts";
+"openFile"="open file fail";
+"chooseFileCopy"="select the file you want to copy";
+"chooseFilePaste"="no need to paste file";
+"photoLibrary"="photo library can not operate";
+"photoCopy"="photo library can not copy";
+"photoChooseAll"="photo library can not select all";
+"photoDelete"="photo library can not delete";
+"mediaLibrary"="media library can not operate";
+"feature"="this feature is not complete";
+"backupToTips"="backup contacts fail";
+"backupFromTips"="import contacts fail";
+"isExist"="file is exist";

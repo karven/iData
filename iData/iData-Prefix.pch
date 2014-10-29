@@ -1,0 +1,31 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+#import "UIWindow+TkmHUD.h"
+
+#define ScreenWidth     [[UIScreen mainScreen] bounds].size.width
+#define ScreenHeight    [[UIScreen mainScreen] bounds].size.height
+#define PhotoRootDirectory [NSString stringWithFormat:@"%@/photo",[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]]
+#define VideoRootDirectory [NSString stringWithFormat:@"%@/video",[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]]
+#define RootDirectory [NSString stringWithFormat:@"%@",[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]]
+#define RootURL @"192.168.169.1/Storage"
+
+#define kHeight_TITLE 44
+#define kBottomBarHeight    49
+#define kAudioBottomBarHeight    60
+#define ANIMATIONDURATION  (0.4)
+
+#define VER_IS_IOS7 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7 ? YES:NO)

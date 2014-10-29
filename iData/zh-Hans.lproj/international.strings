@@ -1,0 +1,51 @@
+/* 
+  international.strings
+  iData
+
+  Created by karven on 8/22/14.
+  Copyright (c) 2014 karven. All rights reserved.
+*/
+"scan"="浏览";
+"edit"="编辑";
+"local"="本地存储区";
+"remote"="iData存储区";
+"changeLanguage" = "更改语言";
+"router"="无线路由设置";
+"music"="音乐";
+"contact"="联系人备份";
+"video"="视频";
+"language"="语言选择";
+"photo"="照片";
+"folder"="文件夹";
+"document"="文档";
+"connect"="已连接";
+"unconnect"="未连接";
+"zone"="已用空间";
+"copy"="复制";
+"paste"="粘贴";
+"check"="全选";
+"delete"="删除";
+"languageTitle"="设置语言";
+"backupTo"="备份通讯录";
+"backupToSubtitle"="将联系人从手机备份到iData";
+"backupFrom"="导入联系人";
+"backupFromSubtitle"="将联系人从iData导入到手机";
+"contactNumber"="本地联系人：";
+"lastOperator"="上一次操作：";
+
+
+
+/*toast信息*/
+"visitContacts"="应用没有权限访问通讯录";
+"openFile"="打开文件失败";
+"chooseFileCopy"="请选择需要复制的文件";
+"chooseFilePaste"="没有需要粘贴的文件";
+"photoLibrary"="照片库不能操作";
+"photoCopy"="照片库文件不能复制";
+"photoChooseAll"="照片库文件不能全选";
+"photoDelete"="照片库文件不能删除";
+"mediaLibrary"="视频库不能操作";
+"feature"="此功能未完成";
+"backupToTips"="备份通讯录失败";
+"backupFromTips"="导入联系人失败";
+"isExist"="已经存在该文件";
